@@ -6,6 +6,7 @@
 
 ```
 docker pull capoferro/swagger-ui
+docker run -d -p 80 capoferro/swagger-ui
 ```
 
 # Build/Run
