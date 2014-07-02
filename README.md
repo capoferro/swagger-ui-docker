@@ -2,6 +2,8 @@
 
 ...in a docker container
 
+[Swagger UI](https://github.com/wordnik/swagger-ui) ([Demo](http://petstore.swagger.wordnik.com/))
+
 # Run
 
 ```
