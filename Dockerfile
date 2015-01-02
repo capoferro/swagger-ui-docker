@@ -14,7 +14,7 @@ RUN rm -f /etc/nginx/sites-enabled/default
 
 RUN echo 'daemon off;' >> /etc/nginx/nginx.conf
 
-ADD https://github.com/wordnik/swagger-ui/archive/master.zip /swagger/
+ADD https://github.com/swagger-api/swagger-ui/archive/master.zip /swagger/
 
 WORKDIR /swagger
 RUN unzip master.zip 
