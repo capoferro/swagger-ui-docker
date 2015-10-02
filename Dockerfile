@@ -22,4 +22,4 @@ RUN mv swagger-ui-master/dist/* .
 
 EXPOSE 80
 
-ENTRYPOINT nginx
+ENTRYPOINT ["nginx"]
